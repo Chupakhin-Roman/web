@@ -14,6 +14,10 @@ body,html {
 	font-family: "Open Sans";
 	box-sizing: border-box;
 }
+img{
+	object-fit: cover;
+    display: block;
+}
 .wrapper {
 	max-width: 1000px;
 	margin:  auto;
@@ -30,6 +34,7 @@ body,html {
 .wrapper1_logo{
 	padding-top: 65px;
 	max-width: 270px;
+    margin: 0 auto;
 }
 .wrapper1_h1{
 	font-size: 3.06em;
@@ -227,8 +232,7 @@ body,html {
 	background-color: rgba(255,255,255, 0.8);
 	position: absolute;
 	margin-top: 160px;
-	left: 50%;
-	margin-left: -215px;
+    left: calc(50% - 214px);
 	padding-top: 110px;
 	padding-bottom: 45px;
 	border-radius: 200px;
